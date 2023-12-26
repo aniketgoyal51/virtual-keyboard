@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+p{
+    margin: 20px;
+    height: 400px;
+    /* width: 95%; */
+    border: 1px solid black;padding: 5px;
+    overflow-wrap:break-word;
+}
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    margin: 20px;
+}
+button{
+    height: 50px;
+    background-color: antiquewhite;
+}
+    button:active{
+        background-color: rgb(255, 255, 246)
+    }
+.keys{
+    width: 6.66%;
+}
+.onefive{
+    width: 9.9%;
+}
+.onesevenfive{
+    width: 11.55%;
+}
+.twosevenfive{
+    width: 18.15%;
+}
+.onetwofive{
+    width: 8.25%;
+}
+.twotwofive{
+    width: 14.91%;
+}
+.sixtwofive{
+    width: 41.95%;
+}
